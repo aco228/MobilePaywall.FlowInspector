@@ -1,0 +1,19 @@
+﻿@model ServiceFlowsViewModel
+
+@foreach (var item in Model.Flows)
+{
+  <div class="sflow" sflowID="@item.ID">
+    <div class="sflow_header">
+      <div class="sflow_tiltle">
+        <input type="text" name="name" class="sflow_title_input" value="@item.Title" placeholder="Add new flow" style="border:0px; background-color: #f3edec;" />
+      </div>
+      <div class="sflow_buttons">
+        <button class="btnAddFlow1">Add</button>
+        <button class="btnUpdateFlow">Update</button>
+      </div>
+    </div>
+    <div class="sflow_entries">
+
+    </div>
+  </div>
+}

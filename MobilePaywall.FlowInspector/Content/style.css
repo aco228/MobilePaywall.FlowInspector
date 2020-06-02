@@ -1,0 +1,151 @@
+﻿body{
+  background-color:#ececec;
+}
+.country{
+  margin-top:2px;
+  background: linear-gradient(to right,#efeff5,#79d9ff);
+  color: #194a63;
+  font-family: "Open Sans";
+  height: 30px;
+  vertical-align:middle;
+  line-height: 25px;
+  cursor:pointer;
+  
+}
+.flag{
+ 
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  width: 20px;
+  height: 15px;
+  float:left;
+  margin-right:10px;
+  margin-top:5px;
+}
+.merchant{
+  margin-left: 50px;
+  margin-top:2px;
+  background: linear-gradient(to right,#efeff5,#82aec1);
+  color: #194a63;
+  font-family: "Open Sans";
+  height: 30px;
+  vertical-align:middle;
+  line-height: 25px;
+  cursor:pointer;
+}
+
+
+.service_header {
+  position:relative;
+  margin-left:100px;
+  margin-top:2px;
+  background: linear-gradient(to right,#efeff5,#ffe8d1);
+  color: #194a63;
+  font-family: "Open Sans";
+  height: 30px;
+  vertical-align:middle;
+  line-height: auto;
+  cursor:pointer;
+}
+.serviceTitle {
+  top:5px;
+  position:absolute;
+  left:5%;
+}
+.serviceProvider {
+  top:0px;
+  position:absolute;
+  left:40%;
+  background-color:#9dc8db; 
+  left:300px; 
+  width:190px;
+  text-align:center;
+  position:  relative;
+  padding-left:20px;
+  padding-right:20px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color:white;
+  float:left;
+}
+.serviceButtons {
+  position:absolute;
+  top:3px;
+  right:5px;
+}
+.serviceButtons {
+  top:3px;
+  float:left;
+}
+.serviceButtons button:hover{ opacity:1; }
+.serviceButtons button{
+  cursor: pointer;
+  background-color: #468847;
+  border-radius: 9px;
+  padding: 2px 15px;
+  border:none;
+  opacity:0.5;
+  color:white;
+  font:inherit;
+}
+.service_flows{ 
+  display:none;
+ 
+}
+.sflow{
+   position:relative;
+  margin-left:150px;
+  margin-top:2px;
+  background: linear-gradient(to right,#efeff5,#ffe8d1);
+  color: #194a63;
+  font-family: "Open Sans";
+  height: 30px;
+  vertical-align:middle;
+  line-height: auto;
+  cursor:pointer;
+}
+
+.sflow_tiltle{
+   top:5px;
+  position:absolute;
+  left:5%;
+}
+.sflow_buttons button:hover{ opacity:1; }
+.sflow_buttons button{
+   cursor: pointer;
+  background-color: #468847;
+  border-radius: 9px;
+  padding: 2px 15px;
+  border:none;
+  opacity:0.5;
+  color:white;
+  font:inherit;
+}
+.sflow_buttons{
+  position:absolute;
+  top:3px;
+  right:5px;
+}
+
+
+.services-buttons{
+  position:relative;
+  float:right;
+  padding-right:10px;
+  padding-top:1px;
+}
+.services-buttons button{
+  background-color:#27AAE1;
+  border: 0px;
+  color: white;
+  font-family: "Open Sans";
+  width:70px;
+  margin-left:5px;
+  border-radius:3px;
+  box-shadow:0px 2px 0px #0F8BB7;
+}
+.serviceName{
+  float:left;
+}
+
